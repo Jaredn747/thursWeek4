@@ -12,9 +12,3 @@ start:
         ldr r2, =c
         str r0, [r2] // store return value in c
 stop:   b stop
-
-        .data
-a:      .word 1
-b:      .word 2
-c:      .word 0
-        
